@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import MenuLine from "../images/Menu.svg"; // your hamburger img
 import { FaTimes } from "react-icons/fa"; // close icon
-import Logo from "../images/logo.svg"; // your logo
+import Logo from "../images/Logo.svg"; // your logo
 
 const Menu = ({ className }) => {
   const [open, setOpen] = useState(false);
