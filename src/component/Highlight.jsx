@@ -1,5 +1,5 @@
 import React from "react";
-import Vector from "../images/vector.svg";
+import Vector from "../images/Vector.svg";
 import Truck from "../images/Background.png";
 
 const Highlight = () => {

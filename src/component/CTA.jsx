@@ -1,5 +1,5 @@
 import React from "react";
-import Truck from "../images/image 2.png";
+import Truck from "../images/image2.png";
 
 const CTA = () => {
   return (
