@@ -1,12 +1,54 @@
-# React + Vite
+# SwiftLogix PLC Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> A corporate website experience for SwiftLogix, presenting the company and its services.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This repository contains the SwiftLogix PLC Website project. It is part of my ongoing work building practical, user-friendly web experiences with an emphasis on clear layouts, responsive design, and maintainable code.
 
-## Expanding the ESLint configuration
+## Goals
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Provide a clear and intuitive user experience.
+- Keep the interface responsive across desktop and mobile screens.
+- Organize the codebase so it is easier to understand and extend.
+- Improve the project iteratively as requirements evolve.
+
+## Getting started
+
+### Prerequisites
+
+- Node.js (LTS recommended)
+- npm
+- Git
+
+### Installation
+
+```bash
+git clone https://github.com/o41-commit/swiftlogix-plc.git
+cd swiftlogix-plc
+npm install
+npm run dev
+```
+
+If the development command differs, check `package.json` for the scripts configured for this repository.
+
+## Project structure
+
+The source folders and configuration files are organized according to the framework and tooling used by this project. Start with `package.json` and the main source directory to understand the app entry point and available commands.
+
+## Development notes
+
+- Keep changes focused and readable.
+- Test responsive behavior when updating the UI.
+- Keep secrets and environment-specific credentials out of version control.
+
+## Author
+
+Built and maintained by **DevNado**.
+
+- GitHub: https://github.com/o41-commit
+- Portfolio: https://dev-nado.vercel.app/
+
+---
+
+<p align="center">Built with care by <strong>DevNado</strong> ✦</p>
